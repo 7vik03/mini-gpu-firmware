@@ -24,3 +24,8 @@ Firmware for mini-gpu. Runs on control processor, manages GPU hardware.
 - [ ] **Error Handler** — Catch and report GPU errors
 - [ ] **Performance Counters** — Track cycles, occupancy, memory bandwidth
 - [ ] **Logging** — Debug output for development
+
+### Kernel Loading
+- [ ] **Binary Loader** — Load kernel binary from mini-gpu-lib
+- [ ] **Argument Setup** — Write kernel arguments to registers
+- [ ] **Instruction Memory** — Copy kernel to GPU instruction memory
